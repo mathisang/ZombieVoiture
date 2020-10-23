@@ -45,14 +45,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: LooseLive
-    clip: {fileID: 8300000, guid: 61ad195ee0adbcf43a81943f1745cb23, type: 3}
-    volume: 1
-    pitch: 1
+    clip: {fileID: 8300000, guid: 5ea5a4e8ed3c3c04f9b596bfc82dfc9e, type: 3}
+    volume: 0.6
+    pitch: 1.01
     loop: 0
     source: {fileID: 0}
   - name: Theme
-    clip: {fileID: 8300000, guid: 858ccbf30f9c3bd408e5b84d4895647e, type: 3}
-    volume: 0.789
-    pitch: 1
+    clip: {fileID: 8300000, guid: 1d523e58aa0214143bdc0a9fd985e9c5, type: 3}
+    volume: 1
+    pitch: 1.13
     loop: 1
+    source: {fileID: 0}
+  - name: Clic
+    clip: {fileID: 8300000, guid: b324b3d1698345046924842a75030763, type: 3}
+    volume: 1.79
+    pitch: 0.89
+    loop: 0
     source: {fileID: 0}

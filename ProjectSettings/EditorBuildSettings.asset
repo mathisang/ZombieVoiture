@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main/Homescreen.unity
-    guid: 61deabbdadde81647a046c05de1384c3
+    path: Assets/Scenes/Main/Endscreen.unity
+    guid: 82e78bffa9139924180ff8d58ead1e85
   - enabled: 1
     path: Assets/Scenes/Main/Game.unity
     guid: 7dc25bb9cd573904a890843bb6307ba2
   - enabled: 1
-    path: Assets/Scenes/Main/Endscreen.unity
-    guid: 82e78bffa9139924180ff8d58ead1e85
+    path: Assets/Scenes/Main/Homescreen.unity
+    guid: 61deabbdadde81647a046c05de1384c3
+  - enabled: 1
+    path: Assets/Scenes/Mathis/Homescreen 1.unity
+    guid: 836960a3e62da19499be4b22a0e814c7
+  - enabled: 1
+    path: Assets/Scenes/Mathis/LoseScreen.unity
+    guid: 3f1e22937927ba04d9ae2a7b1e7dfbb6
+  - enabled: 1
+    path: Assets/Scenes/Mathis/MainScene.unity
+    guid: ff96c754568757740b8765846618cee9
   m_configObjects: {}

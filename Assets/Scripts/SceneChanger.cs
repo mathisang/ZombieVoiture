@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     public void ChangeTo(string sceneName) {
+        if(sceneName == "MainScene") {
+            FindObjectOfType<AudioManager>().Play("Clic");
+        }
         SceneManager.LoadScene(sceneName);
     }
 }
