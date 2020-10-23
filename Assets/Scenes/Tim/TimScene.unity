@@ -2173,6 +2173,7 @@ GameObject:
   - component: {fileID: 1502809667}
   - component: {fileID: 1502809668}
   - component: {fileID: 1502809669}
+  - component: {fileID: 1502809670}
   m_Layer: 8
   m_Name: Personnage
   m_TagString: Untagged
@@ -2488,6 +2489,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IntervalMultiplicator: 0.1
   ScoreText: {fileID: 964587174}
+--- !u!114 &1502809670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502809656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67cacc5dd7c6c4f9a8f5d69fe9cb2b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespondTo:
+    serializedVersion: 2
+    m_Bits: 16384
+  CollisionEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1502809669}
+        m_MethodName: AddZombiePoints
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  CollisionStay:
+    m_PersistentCalls:
+      m_Calls: []
+  CollisionLeave:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1582745038
 GameObject:
   m_ObjectHideFlags: 0

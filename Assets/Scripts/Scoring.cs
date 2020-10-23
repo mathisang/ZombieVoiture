@@ -9,12 +9,16 @@ public class Scoring : MonoBehaviour
 
     private float ScoreMultiplicator = 0;
     public float IntervalMultiplicator = 0.5f;
-    //private float ScorePoints = ScoreMultiplicator * Time.deltaTime;
     public Text ScoreText;
 
         void Start() {
             ScoreText.text = "Score : " + Score;
         }
+
+        public void AddZombiePoints() {
+                Score += 10 * ScoreMultiplicator;
+
+            }
 
     // Update is called once per frame
     void Update()
