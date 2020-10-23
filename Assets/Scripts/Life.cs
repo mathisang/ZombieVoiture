@@ -30,6 +30,8 @@ public class Life : MonoBehaviour
             SceneManager.LoadScene("LoseTim");
 
         }
+
+        FindObjectOfType<AudioManager>().Play("LooseLive");
     }
 
 }
