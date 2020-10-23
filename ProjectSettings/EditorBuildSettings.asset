@@ -5,22 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Lose.unity
-    guid: e8740e1f849bc420681b919a32a05699
+    path: Assets/Scenes/Main/Homescreen.unity
+    guid: 61deabbdadde81647a046c05de1384c3
   - enabled: 1
-    path: Assets/Scenes/Tim/Menu.unity
-    guid: bf725d74f4a22f24fa30ba2b22deb85a
+    path: Assets/Scenes/Main/Game.unity
+    guid: 7dc25bb9cd573904a890843bb6307ba2
   - enabled: 1
-    path: Assets/Scenes/Tim/TimScene.unity
-    guid: b6c32e866ce0af7429049cbf9c209242
-  - enabled: 1
-    path: Assets/Scenes/Mathis/MainScene.unity
-    guid: ff96c754568757740b8765846618cee9
-  - enabled: 1
-    path: Assets/Scenes/Mathis/LoseScreen.unity
-    guid: 3f1e22937927ba04d9ae2a7b1e7dfbb6
+    path: Assets/Scenes/Main/Endscreen.unity
+    guid: 82e78bffa9139924180ff8d58ead1e85
   m_configObjects: {}

@@ -27,7 +27,7 @@ public class Life : MonoBehaviour
 
         if (LifeCount <= 0) {
             // Recharger la scène
-            SceneManager.LoadScene("LoseTim");
+            SceneManager.LoadScene("Endscreen");
 
         }
 
